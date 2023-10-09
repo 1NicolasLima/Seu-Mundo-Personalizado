@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className="bg-slate-800">
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -175,7 +175,12 @@ export default function RootLayout({
         )}
       </Disclosure>
         {children}
+        <footer>
+        Receba novidades e promoções
+      </footer>
       </body>
+
+      
     </html>
   )
 }
